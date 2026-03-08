@@ -16,9 +16,9 @@ repositories {
     }
 }
 dependencies {
-    implementation 'com.fasterxml.jackson.core:jackson-core:2.19.0'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.19.0'
-    implementation 'org.apache.commons:commons-lang3:3.17.0'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.21.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.21.1'
+    implementation 'org.apache.commons:commons-lang3:3.20.0'
     implementation 'org.jspecify:jspecify:1.0.0'
 }
 
@@ -28,7 +28,7 @@ description = 'Nord Pool Intraday Public API classes'
 if (System.getenv("VERSION")) {
     version = System.getenv("VERSION")
 } else {
-    version = '1.1.27'
+    version = '1.1.33'
 }
 
 java.sourceCompatibility = JavaVersion.VERSION_23
